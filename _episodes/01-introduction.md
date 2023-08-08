@@ -22,5 +22,8 @@ With a GUI, we give instructions by clicking a mouse and using menu-driven inter
 
 While the visual aid of a GUI makes it intuitive to learn, this way of delivering instructions to a computer scales very poorly.
 
+The Unix shell is both a **command-line interface** (CLI) and a scripting language, allowing such repetitive tasks to be done automatically and fast.
+With the proper commands, the shell can repeat tasks with or without some modification as many times as we want.
+Using the shell, the task in the literature example can be accomplished in seconds.
 
 {% include links.md %}
