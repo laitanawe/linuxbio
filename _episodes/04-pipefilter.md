@@ -603,11 +603,12 @@ so that you and other people can put those programs into pipes to multiply their
 {: .challenge}
 
 ## Executing Multiple Commands in one line
-These concepts are important in bash.
+> > ## These concepts are important in bash.
 > 1.  `A; B`    # Run command A and then B, regardless of success of A
 > 2.  `A && B`  # Run command B if and only if A succeeded
 > 3.  `A || B`  # Run command B if and only if A failed
 > 4.  `A &`     # Run command A in background.
+> {: .solution}
 
 For example, we can type:
 ~~~
