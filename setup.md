@@ -67,17 +67,11 @@ data-toggle="tab">Linux</a></li>
 <div class="tab-content">
 <article role="tabpanel" class="tab-pane active" id="windows">
 Computers with Windows operating systems do not automatically have a Unix Shell program
-installed.
-In this lesson, we encourage you to use an emulator included when you download and install <a href="https://mobaxterm.mobatek.net/download.html">MobaXterm</a> or [Git for Windows][install_shell],
-which gives you access to both Bash shell commands and Git.
-
-Once installed, you can open a terminal by running the program Git Bash from the Windows start
-menu.
+installed. Your instructor will guide you on how to get access to both Bash shell commands and Git.
 
 **For advanced users:**
 
-As an alternative to Git for Windows you may wish to [Install the Windows Subsystem for Linux][wsl]
-which gives access to a Bash shell command-line tool in Windows 10.
+As an alternative to Git for Windows you may wish to [Install the Windows Subsystem for Linux][wsl] or install <a href="https://mobaxterm.mobatek.net/download.html">MobaXterm</a> which gives access to a Bash shell command-line tool in Windows 10.
 
 Please note that commands in the Windows Subsystem for Linux (WSL) may differ slightly
 from those shown in the lesson or presented in the workshop.
