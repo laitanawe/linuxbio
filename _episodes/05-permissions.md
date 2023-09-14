@@ -60,20 +60,6 @@ Every file and directory on a Unix computer belongs to one owner and one group.
 Along with each file's content,
 the operating system stores the numeric IDs of the user and group that own it.
 
-The user-and-group model means that
-for each file
-every user on the system falls into one of three categories:
-the owner of the file,
-someone in the file's group,
-and everyone else.
-
-For each of these three categories,
-the computer keeps track of
-whether people in that category can read the file,
-write to the file,
-or execute the file
-(i.e., run it if it is a program).
-
 For example, if a file had the following set of permissions:
 
 <table class="table table-striped">
