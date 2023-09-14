@@ -1,7 +1,8 @@
 ---
 title: AWK
 subtitle: Manipulating and filtering complex data
-minutes: 120
+teaching: 10
+exercises: 5
 questions:
 - "How can I print specific fields from text files?"
 objectives:
