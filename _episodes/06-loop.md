@@ -50,7 +50,7 @@ We’ll use a loop to solve this problem, but first let’s look at the general 
 ```
 for something in somethings
 do
-    operation_using_$something    # Indentation within the loop is not required, but aids legibility
+    operation_using_$something    # Indentation within the loop is not required, but aids legibility of code
 done
 ```
 {: .language-bash}
@@ -59,7 +59,7 @@ Another analogy:
 ```
 for thing in list_of_things
 do
-    operation_using $thing    # Indentation within the loop is not required, but aids legibility
+    operation_using $thing    # Indentation within the loop is not required, but aids legibility of code
 done
 ```
 {: .language-bash}

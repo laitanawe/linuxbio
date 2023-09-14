@@ -19,9 +19,6 @@ keypoints:
 ### Background
 
 Unix controls who can read, modify, and run files using *permissions*.
-We'll discuss how Windows handles permissions at the end of the section:
-the concepts are similar,
-but the rules are different.
 
 Let's start with Nelle.
 She has a unique [user name]({{ page.root }}/reference/{{ site.index }}#user-name),
