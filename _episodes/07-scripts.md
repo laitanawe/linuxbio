@@ -1,6 +1,6 @@
 ---
 title: "Scripts, variables, and loops"
-teaching: 40
+teaching: 35
 exercises: 10
 questions:
 - How do I turn a set of commands into a program?
