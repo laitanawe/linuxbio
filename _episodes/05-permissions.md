@@ -28,8 +28,6 @@ and a [user ID]({{ page.root }}/reference/{{ site.index }}#user-id),
 
 > ## Why Integer IDs?
 >
-> Why integers for IDs?
-> Again, the answer goes back to the early 1970s.
 > Character strings like `alan.turing` are of varying length,
 > and comparing one to another takes many instructions.
 > Integers,
