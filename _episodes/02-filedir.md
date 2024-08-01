@@ -61,7 +61,7 @@ which is Nelle's **home directory**:
 > ## Home Directory Variation
 >
 > The home directory path will look different on different operating systems.
-> On Linux, it may look like `/home/nelle`,
+> On Linux, it may look like `/data/hps/home/nelle`,
 > and on Windows, it will be similar to `C:\Documents and Settings\nelle` or
 > `C:\Users\nelle`.
 > (Note that it may look slightly different for different versions of Windows.)
