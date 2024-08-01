@@ -62,7 +62,7 @@ which is Nelle's **home directory**:
 >
 > The home directory path will look different on different operating systems.
 > On Linux, it may look like `/data/hps/home/nelle`,
-> and on Windows, it will be similar to `C:\Documents and Settings\nelle` or
+> and on a terminal emulator or Windows, it will be similar to `C:\Documents and Settings\nelle` or
 > `C:\Users\nelle`.
 > (Note that it may look slightly different for different versions of Windows.)
 > In future examples, we've used Mac output as the default - Linux and Windows
