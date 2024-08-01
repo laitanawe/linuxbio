@@ -19,7 +19,7 @@ keypoints:
 - "Use of the Control key may be described in many ways, including `Ctrl-X`, `Control-X`, and `^X`."
 - "The shell does not have a trash bin: once something is deleted, it's really gone."
 - "Most files' names are `something.extension`. The extension isn't required, and doesn't guarantee anything, but is normally used to indicate the type of data in the file."
-- "Depending on the type of work you do, you may need a more powerful text editor than Nano."
+- "Depending on the type of work you do, you may need a powerful text editor like vi."
 ---
 ## Creating directories
 We now know how to explore files and directories,
@@ -166,29 +166,29 @@ data/  results/
 
 ### Create a text file
 Let's change our working directory to `thesis` using `cd`,
-then run a text editor called Nano to create a file called `draft.txt`:
+then run a text editor called vi to create a file called `draft.txt`:
 
 ~~~
 $ cd thesis
-$ nano draft.txt
+$ vi draft.txt
 ~~~
 {: .language-bash}
 
 > ## Which Editor?
 >
-> When we say, '`nano` is a text editor' we really do mean 'text': it can
+> When we say, '`vi` is a text editor' we really do mean 'text': it can
 > only work with plain character data, not tables, images, or any other
 > human-friendly media. We use it in examples because it is one of the
 > least complex text editors. However, because of this trait, it may
 > not be powerful enough or flexible enough for the work you need to do
 > after this workshop. On Unix systems (such as Linux and macOS),
 > many programmers use [Emacs](http://www.gnu.org/software/emacs/) or
-> [Vim](http://www.vim.org/) (both of which require more time to learn),
+> [nano](http://www.vim.org/) (both of which may require more time to learn),
 > or a graphical editor such as
 > [Gedit](http://projects.gnome.org/gedit/). On Windows, you may wish to
 > use [Notepad++](http://notepad-plus-plus.org/).  Windows also has a built-in
 > editor called `notepad` that can be run from the command line in the same
-> way as `nano` for the purposes of this lesson.
+> way as `vi` for the purposes of this lesson.
 >
 > No matter what editor you use, you will need to know where it searches
 > for and saves files. If you start it from the shell, it will (probably)
@@ -205,32 +205,36 @@ holding it down, press the <kbd>O</kbd> key) to write our data to disk
 (we'll be asked what file we want to save this to:
 press <kbd>Return</kbd> to accept the suggested default of `draft.txt`).
 
+<!--
 <div style="width:80%; margin: auto;"><img alt="screenshot of nano text editor in action"
 src="../fig/nano-screenshot.png"></div>
-
-Once our file is saved, we can use <kbd>Ctrl</kbd>+<kbd>X</kbd> to quit the editor and
+-->
+<!--Once our file is saved, we can use <kbd>Ctrl</kbd>+<kbd>X</kbd> to quit the editor and
 return to the shell.
+-->
+Once our file is saved, we can use the <kbd>Esc</kbd> key, then <kbd>:</kbd>+<kbd>wq</kbd> to save and quit the editor and return to the shell.
+
 
 > ## Control, Ctrl, or ^ Key
 >
-> The Control key is also called the 'Ctrl' key. There are various ways
+> The Shift key is also called the 'Shift' key. There are various ways
 > in which using the Control key may be described. For example, you may
-> see an instruction to press the <kbd>Control</kbd> key and, while holding it down,
-> press the <kbd>X</kbd> key, described as any of:
+> see an instruction to press the <kbd>Shift</kbd> key and, while holding it down,
+> press the <kbd>:x</kbd> key, described as any of:
 >
-> * `Control-X`
-> * `Control+X`
-> * `Ctrl-X`
-> * `Ctrl+X`
-> * `^X`
-> * `C-x`
+> * `Shift-:x`
+> * `Shift+:x`
+> * `Shft-:x`
+> * `Shft+:x`
+> * `Shft-:wq`
+> * `Shift-:wq`
 >
-> In nano, along the bottom of the screen you'll see `^G Get Help ^O WriteOut`.
-> This means that you can use `Control-G` to get help and `Control-O` to save your
-> file.
+> .
+> In vi, you can use `Shift plus : plus x` to save and exit or `Shift plus : plus wq` to save your
+> file and exit.
 {: .callout}
 
-`nano` doesn't leave any output on the screen after it exits,
+`vi` doesn't leave any output on the screen after it exits,
 but `ls` now shows that we have created a file called `draft.txt`:
 
 ~~~
@@ -245,7 +249,7 @@ draft.txt
 
 > ## Creating Files a Different Way
 >
-> We have seen how to create text files using the `nano` editor.
+> We have seen how to create text files using the `vi` editor.
 > Now, try the following command:
 >
 > ~~~
