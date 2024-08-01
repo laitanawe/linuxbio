@@ -47,7 +47,8 @@ kind: "lesson"
 repository: <USERNAME>/<PROJECT>
 
 # Email address, no mailto:
-email: "team@carpentries.org"
+# email: "team@carpentries.org"
+email: "laitanawe@gmail.com"
 
 # Sites.
 coc: "https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html"
