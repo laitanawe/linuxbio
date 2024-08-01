@@ -188,7 +188,7 @@ $ vi draft.txt
 > [Gedit](http://projects.gnome.org/gedit/). On Windows, you may wish to
 > use [Notepad++](http://notepad-plus-plus.org/).  Windows also has a built-in
 > editor called `notepad` that can be run from the command line in the same
-> way as `vi` for the purposes of this lesson.
+> way as `vi` for the purposes of this lesson. `vi` is also called `vim`.
 >
 > No matter what editor you use, you will need to know where it searches
 > for and saves files. If you start it from the shell, it will (probably)

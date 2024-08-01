@@ -22,7 +22,7 @@ title: "Introduction to Scientific Computing"
 # 'transition-step-1': notice indicating a new version
 # 'transition-step-2': notice encouraging to use new version
 # 'transition-step-3': notice indicating the lesson is deprecated,
-#                      with automated redirect
+#                     with automated redirect
 life_cycle: "alpha"
 
 # For lessons in the life stages in 'transition-step-1' or later:
